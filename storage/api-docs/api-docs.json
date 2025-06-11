@@ -1,0 +1,41 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API Documentation",
+        "description": "Interface for Swagger Example",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "/api"
+        }
+    ],
+    "paths": {
+        "/example": {
+            "get": {
+                "tags": [
+                    "Test"
+                ],
+                "summary": "示例 API",
+                "operationId": "5aebe02878d59c02a05142d360576cd3",
+                "responses": {
+                    "200": {
+                        "description": "成功回應"
+                    },
+                    "400": {
+                        "description": "請求錯誤"
+                    },
+                    "500": {
+                        "description": "伺服器錯誤"
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Test",
+            "description": "API endpoints for testing purposes"
+        }
+    ]
+}
